@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*body {*/
+/*  background-color: yellow;*/
+/*}*/
+
+p {
+  margin: 50px;
+  padding-left: -10px;
+  
+}
+
+/*==================================
+CONTAINER
+==================================*/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(33, 169, 162);
+  padding: 1%;
+  background-color: rgba(85, 99, 102, 1);
+  border-radius: 20px;
+}
+
+.title {
+  line-height: 2.2rem;
+  margin: 1%;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-decoration-color: rgb(33, 169, 162);
+}
+
+.buttons {
+  display:flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 2%;
+  
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: rgb(33, 169, 162);
+  height: 2.4rem;
+  width: 8rem;
+  border-radius: 10px;
+  border: 2px solid rgb(33, 169, 162);
+  
+}
+
+.results {
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid rgb(33, 169, 162);
+  color: rgb(33, 169, 162);
+  background-color: black;
+}
+
+.results p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instructions {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
