@@ -7,6 +7,7 @@ let rockButton = document.getElementById('rockBtn')
 let paperButton = document.getElementById('paperBtn')
 let scissorsButton = document.getElementById('scissorsBtn')
 
+
 rockButton.addEventListener('click', function (){
     userChoice = 'rock';
     console.log(userChoice)
